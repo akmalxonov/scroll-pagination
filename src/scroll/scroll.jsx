@@ -10,7 +10,8 @@
 
     const skeleton = () => {
         return Array.from({ length: 1 }).map((_, idx) => (
-        <Skeleton.Node key={idx} active={true} className="sekleton" />
+        <div class="loader"></div>
+        
         ));
     };
 
