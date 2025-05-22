@@ -1,0 +1,18 @@
+.scroll {
+  .wrapper {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    .my-skeleton {
+      width: 100%;
+      height: 300px; 
+      margin-top: 20px;
+      border-radius: 8px; 
+    }
+  }
+  .btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+  }
+}

@@ -1,0 +1,12 @@
+.pagination-page{
+    .wrapper{
+        display: grid;
+        grid-template-columns: repeat(5,1fr);
+        gap: 10px;
+    }
+    .pagination{
+            display: flex;
+            justify-content: center;
+            margin-top: 15px;
+        }
+}
